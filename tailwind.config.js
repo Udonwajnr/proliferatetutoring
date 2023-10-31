@@ -17,7 +17,9 @@ export default {
         "dark-white":"#D9D9D9",
         "blue-bg":"#186BAD",
         "ash":"#F2F1F1",
-        "trans-blue":"rgba(24,107,173,0.5)"
+        "trans-blue":"rgba(24,107,173,0.5)",
+        "link-blue":"#186BAD",
+        "hover-blue":"#509CDB",
       }
     },
   },

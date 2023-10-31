@@ -14,7 +14,8 @@ import VerifyEmail from './pages/VerifyEmail'
 import HomePage from './pages/HomePage'
 import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
-
+import BecomeATutor from './pages/tutorDashBoard/BecomeATutor'
+import DashBoardTutor from './pages/tutorDashBoard/DashBoardTutor'
 const router = createBrowserRouter([
   {
     path: "login",
@@ -30,8 +31,16 @@ const router = createBrowserRouter([
     element: <SignUpTutor/>,
   },
   {
+    path: "becomeatutor",
+    element: <BecomeATutor/>,
+  },
+  {
     path: "tutorprofile",
     element: <TutorProfile/>,
+  },
+  {
+    path: "tutordashboard",
+    element: <DashBoardTutor/>,
   },
   {
     path: "contact",

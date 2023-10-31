@@ -13,16 +13,16 @@ import avatar from '../assets/Avatar.png'
 
 const TutorsSideBar = () => {
   return (
-    <aside className='bg-[#2977B5] w-2/12 px-4 py-11 sticky top-0 flex flex-col space-y-16'>
+    <aside className='bg-[#2977B5] w-2/12  py-11 sticky top-0 flex flex-col space-y-16'>
             <div>
                 <img src={logo} alt="" />
             </div>
-        <div className='flex flex-col space-y-16'>
+        <div className='flex flex-col justify-center items-center space-y-16'>
 
-            <div>
-                <ul className='flex flex-col space-y-3'>
+            <div className='w-full px-10'>
+                <ul className='flex flex-col space-y-3 '>
                     <li>
-                        <Link to={'/'} className='flex items-center text-white gap-x-3 w-full bg-link-blue hover:bg-hover-blue py-3 px-2'>
+                        <Link to={'/'} className='flex w-full items-center text-white gap-x-3 w-full bg-link-blue hover:bg-hover-blue py-3 px-2'>
                             <svg width="30" height="30" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.6663 7.49881C14.6663 6.69214 14.1263 5.65881 13.4663 5.19881L9.34634 2.31214C8.41301 1.65881 6.91301 1.69214 6.01301 2.39214L2.41967 5.19214C1.81967 5.65881 1.33301 6.65214 1.33301 7.40547V12.3455C1.33301 13.8921 2.59301 15.1588 4.13967 15.1588H11.8597C13.4063 15.1588 14.6663 13.8921 14.6663 12.3521V10.2855" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M8 12.4922V10.4922" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -47,7 +47,6 @@ const TutorsSideBar = () => {
                             <path d="M8.00045 15.6654C7.70711 15.6654 7.40711 15.6254 7.16711 15.5454L5.04045 14.8388C4.03378 14.5054 3.24045 13.4054 3.24711 12.3454L3.25378 9.21875C3.25378 8.94542 3.48045 8.71875 3.75378 8.71875C4.02711 8.71875 4.25378 8.94542 4.25378 9.21875L4.24711 12.3454C4.24711 12.9721 4.76711 13.6921 5.36045 13.8921L7.48711 14.5988C7.75378 14.6854 8.24711 14.6854 8.51378 14.5988L10.6404 13.8921C11.2338 13.6921 11.7538 12.9721 11.7538 12.3521V9.25875C11.7538 8.98542 11.9804 8.75875 12.2538 8.75875C12.5271 8.75875 12.7538 8.98542 12.7538 9.25875V12.3521C12.7538 13.4121 11.9671 14.5054 10.9604 14.8454L8.83378 15.5521C8.59378 15.6254 8.29378 15.6654 8.00045 15.6654Z" fill="white"/>
                             <path d="M14.2666 11C13.9933 11 13.7666 10.7733 13.7666 10.5V6.5C13.7666 6.22667 13.9933 6 14.2666 6C14.5399 6 14.7666 6.22667 14.7666 6.5V10.5C14.7666 10.7733 14.5399 11 14.2666 11Z" fill="white"/>
                         </svg>
-
                             Assignments
                         </Link>
                     </li>
@@ -96,7 +95,7 @@ const TutorsSideBar = () => {
 
                     <li>
                         <Link to={'/'} className='flex items-center text-white gap-x-3 w-full bg-link-blue hover:bg-hover-blue py-3 px-2'>
-                            <img src={chat} alt="" />
+                               <img src={chat} alt="" className='w-5 h-5'/>
                             Message
                         </Link>
                     </li>
@@ -105,7 +104,7 @@ const TutorsSideBar = () => {
 
                 {/* logout */}
             
-            <div className=''>
+            <div className='w-full px-10'>
                 <ul>
                     <li>
                         <Link to={'/'} className='flex items-center text-white gap-x-3 w-full bg-link-blue hover:bg-hover-blue py-3 px-2'>
@@ -122,7 +121,7 @@ const TutorsSideBar = () => {
             </div>
 
                 {/* support */}
-            <div className='mt-7 flex flex-col space-y-3'>
+            <div className='mt-7 flex flex-col space-y-3 w-full px-10'>
                 <Link className='bg-white p-4 flex space-x-2 items-center rounded-md'>
                     <img src={Icon} alt="icon"/>
                     <p>
@@ -143,7 +142,7 @@ const TutorsSideBar = () => {
             <div className='flex items-center space-x-4'>
                 <div className='flex items-center space-x-3'>
                     <img src={avatar} className='w-10 h-10 rounded-full' alt="avatar" />
-                    <div>
+                    <div className=''>
                         <h3 className='text-white'>Olivia Rhye</h3>
                         <span className='text-white'>olivia@-learning.com</span>
                     </div>

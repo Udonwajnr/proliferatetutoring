@@ -14,7 +14,7 @@ const MainNavbar = () => {
                 <li>
                     <Link to={'/'}>Find Tutors</Link>
                 </li><li>
-                    <Link to={'/'}>About Us</Link>
+                    <Link to={'/about'}>About Us</Link>
                 </li>
                 <li>
                     <Link to={'/'}>Our Programs</Link>

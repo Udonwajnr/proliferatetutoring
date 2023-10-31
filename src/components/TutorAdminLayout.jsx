@@ -7,11 +7,10 @@ const TutorAdminLayout = ({children}) => {
   return (
     <>
         <div className='flex '>
-            
             <TutorsSideBar/>
-            <div>
+            <div className='w-10/12 px-4'>
                 <TutorPageHeader/>
-                <main>
+                <main className='overflow-y-scroll'>
                     {children}
                 </main>
             </div>

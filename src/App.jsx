@@ -18,7 +18,7 @@ import BecomeATutor from './pages/tutorDashBoard/BecomeATutor'
 import DashBoardTutor from './pages/tutorDashBoard/DashBoardTutor'
 const router = createBrowserRouter([
   {
-    path: "login",
+    path: "",
     element: <Login/>
   },
   

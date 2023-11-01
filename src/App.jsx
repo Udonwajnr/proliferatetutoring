@@ -17,7 +17,7 @@ import ContactUs from './pages/ContactUs'
 import BecomeATutor from './pages/tutorDashBoard/BecomeATutor'
 import DashBoardTutor from './pages/tutorDashBoard/DashBoardTutor'
 import TutorsMessages from './pages/tutorDashBoard/TutorsMessages'
-
+import TutorsClasses from './pages/tutorDashBoard/TutorsClasses'
 const router = createBrowserRouter([
   {
     path: "",
@@ -39,6 +39,11 @@ const router = createBrowserRouter([
   {
     path: "tutormessages",
     element: <TutorsMessages/>,
+  },
+
+  {
+    path: "tutorClasses",
+    element: <TutorsClasses/>,
   },
   {
     path: "tutorprofile",

@@ -13,7 +13,7 @@ import avatar from '../assets/Avatar.png'
 
 const TutorsSideBar = () => {
   return (
-    <aside className='bg-[#2977B5] w-2/12  py-11 sticky top-0 flex flex-col space-y-16'>
+    <aside className='bg-[#2977B5] w-2/12  py-11 sticky top-0 flex flex-col space-y-16 h-[133vh]'>
             <div>
                 <img src={logo} alt="" />
             </div>

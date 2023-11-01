@@ -148,3 +148,24 @@
     background-color: #e6e6e6;
   }
   
+
+
+  /* messages */
+
+.outgoing{
+  align-self: flex-end;
+} 
+
+.unique::-webkit-scrollbar {
+  width: 14px;
+}
+
+.unique::-webkit-scrollbar-track {
+  background: #D9D9D9;        /* color of the tracking area */
+  border-radius: 30px;
+}
+
+.unique::-webkit-scrollbar-thumb {
+  background-color:#186BAD;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}

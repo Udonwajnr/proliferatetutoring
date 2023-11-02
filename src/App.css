@@ -171,3 +171,18 @@
 }
 
 /* slider */
+
+
+/* background image */
+
+.excel{
+  background-image: url("./assets/Rect4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card{
+  /* background-image: url("./assets/card.png"); */
+  
+
+}

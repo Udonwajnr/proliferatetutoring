@@ -23,7 +23,12 @@ import TutorsReport from './pages/tutorDashBoard/TutorsReport'
 
 const router = createBrowserRouter([
   {
-    path: "",
+    path: "/",
+    element: <HomePage/>
+  },
+  
+  {
+    path: "/login",
     element: <Login/>
   },
   
@@ -39,6 +44,11 @@ const router = createBrowserRouter([
     path: "becomeatutor",
     element: <BecomeATutor/>,
   },
+  {
+    path: "tutorsignupprofile",
+    element: <TutorProfile/>,
+  },
+  // admin tutor
   {
     path: "tutormessages",
     element: <TutorsMessages/>,

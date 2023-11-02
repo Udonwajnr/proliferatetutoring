@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import { Link } from 'react-router-dom'
 
 const SignUpTutor = () => {
   return (
@@ -27,10 +28,10 @@ const SignUpTutor = () => {
                 <input type="text" placeholder='Password' className='w-full border h-10 bg-ash'/> 
               </div>
 
-              <button className=' my-2 text-black py-2 rounded-md font-bold flex items-center'>Next
+              <Link to={"/tutorsignupprofile"} className=' my-2 text-black py-2 rounded-md font-bold flex items-center'>Next
                   <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6l-1.41-1.42Z"></path></svg>
 
-                  </button>
+                  </Link>
             </form>
 
         </section>

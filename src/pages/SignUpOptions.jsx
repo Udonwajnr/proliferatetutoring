@@ -24,7 +24,7 @@ const SignUpOptions = () => {
                     <div className='flex justify-center flex-col items-center'>
                         <h2 className='font-bold text-[36px]'>As Tutor</h2>
                         <img src={img1} alt="" />
-                        <Link to={"/register"} className='text-white bg-blue-bg font-bold px-5 py-2 rounded-lg mt-4'>Sign Up</Link>
+                        <Link to={"/signuptutor"} className='text-white bg-blue-bg font-bold px-5 py-2 rounded-lg mt-4'>Sign Up</Link>
                     </div>
                 </div>
             </Link>

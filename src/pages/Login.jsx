@@ -31,8 +31,8 @@ const Login = () => {
               <button className='text-center bg-blue-bg text-white w-full py-2 rounded-md font-bold'>Sign In</button>
             </form>
             <div className='flex flex-col justify-center items-center my-3'>
-              <Link to="/" className='text-blue-bg my-1'>Forgot Password</Link>
-              <p className='text-[#898A8B] '>Don't have an account? <span className='text-blue-bg'><Link to={'/register'}>Sign Up</Link></span></p>
+              <Link to="" className='text-blue-bg my-1'>Forgot Password</Link>
+              <p className='text-[#898A8B] '>Don't have an account? <span className='text-blue-bg'><Link to={'/signupoption'}>Sign Up</Link></span></p>
             </div>
 
             <div className='flex items-center space-x-1'>

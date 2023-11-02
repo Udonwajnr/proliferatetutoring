@@ -4,10 +4,12 @@ import logo from '../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <header className='px-4 '>
+    <header className='px-4 py-4 '>
         <nav className='flex items-center justify-between'>
             <div className="logo">
-                <img src={logo} alt="logo" />
+                <Link to={"/"}>
+                     <img src={logo} alt="logo" />
+                </Link>
             </div>
             <div>
                 <ul className='flex space-x-4 py-2'>
@@ -32,7 +34,7 @@ const Navbar = () => {
             </div>
             <div className='flex space-x-4'>
                 <Link to={"/login"} className='bg-blue-bg text-white py-2 px-3 rounded-lg'>Login</Link>
-                <Link to={"/register"} className='text-black bg-dark-white py-2 px-3 rounded-lg'>Sign Up</Link>
+                <Link to={"/signupoption"} className='text-black bg-dark-white py-2 px-3 rounded-lg'>Sign Up</Link>
             </div>
         </nav>
     </header>

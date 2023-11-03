@@ -84,9 +84,9 @@ const TutorScreen = () => {
 
             {/* right */}
 
-            <div className='flex flex-wrap gap-4 justify-between w-10/12 items-start'>
+            <div className='flex flex-wrap gap-4 justify-start w-10/12 items-start'>
                 {/* profile card */}
-                <div className='w-[400px] shadow-md px-3 py-3'>
+                <div className='w-[350px] shadow-md px-3 py-3'>
                     <div className='flex items-center gap-x-3'>
                         <img src={pic1} alt="" />
                         <div>
@@ -121,7 +121,7 @@ const TutorScreen = () => {
                     <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
                 </div>
 
-                <div className='w-[400px] shadow-md px-3 py-3'>
+                <div className='w-[350px] shadow-md px-3 py-3'>
                     <div className='flex items-center gap-x-3'>
                         <img src={pic1} alt="" />
                         <div>
@@ -155,7 +155,7 @@ const TutorScreen = () => {
                     </div>
                     <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
                 </div>
-                <div className='w-[400px] shadow-md px-3 py-3'>
+                <div className='w-[350px] shadow-md px-3 py-3'>
                     <div className='flex items-center gap-x-3'>
                         <img src={pic1} alt="" />
                         <div>
@@ -189,7 +189,7 @@ const TutorScreen = () => {
                     </div>
                     <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
                 </div>
-                <div className='w-[400px] shadow-md px-3 py-3'>
+                <div className='w-[350px] shadow-md px-3 py-3'>
                     <div className='flex items-center gap-x-3'>
                         <img src={pic1} alt="" />
                         <div>
@@ -223,7 +223,7 @@ const TutorScreen = () => {
                     </div>
                     <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
                 </div>
-                <div className='w-[400px] shadow-md px-3 py-3'>
+                <div className='w-[350px] shadow-md px-3 py-3'>
                     <div className='flex items-center gap-x-3'>
                         <img src={pic1} alt="" />
                         <div>
@@ -257,42 +257,7 @@ const TutorScreen = () => {
                     </div>
                     <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
                 </div>
-                <div className='w-[400px] shadow-md px-3 py-3'>
-                    <div className='flex items-center gap-x-3'>
-                        <img src={pic1} alt="" />
-                        <div>
-                            <h2 className='uppercase'>BaMidele Moses</h2>
-                            <span>BSc. BIOCHEMISTRY</span>
-                        </div>
-                    </div>
-                    <hr className='my-2'/>
-                    <div>
-                        <div className='flex gap-x-2'>
-                            <span>Subjects:</span>
-                            <span>General Reasoning, Science and Mathematics</span>
-
-                        </div>
-                        
-                        <div className='flex gap-x-2'>
-                            <span>Grade:</span>
-                            <span>1-12</span>
-
-                        </div>
-                        <div className='flex gap-x-2'>
-                        <span>Experience:</span>
-                        <span>
-                         13+ years
-                        </span>
-                        </div>
-                        <div className='flex gap-x-2'>
-                            <span>Bio:</span>
-                            <span>I authored a math and quantitative reasoning book currently incorporated in schools' curiculum. I have successfully transformed 'F' students to 'A' students and on several .......</span>
-                        </div>             
-                    </div>
-                    <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
-                </div>
-
-                <div className='w-[400px] shadow-md px-3 py-3'>
+                <div className='w-[350px] shadow-md px-3 py-3'>
                     <div className='flex items-center gap-x-3'>
                         <img src={pic1} alt="" />
                         <div>
@@ -327,7 +292,7 @@ const TutorScreen = () => {
                     <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
                 </div>
 
-                <div className='w-[400px] shadow-md px-3 py-3'>
+                <div className='w-[350px] shadow-md px-3 py-3'>
                     <div className='flex items-center gap-x-3'>
                         <img src={pic1} alt="" />
                         <div>
@@ -362,7 +327,42 @@ const TutorScreen = () => {
                     <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
                 </div>
 
-                <div className='w-[400px] shadow-md px-3 py-3'>
+                <div className='w-[350px] shadow-md px-3 py-3'>
+                    <div className='flex items-center gap-x-3'>
+                        <img src={pic1} alt="" />
+                        <div>
+                            <h2 className='uppercase'>BaMidele Moses</h2>
+                            <span>BSc. BIOCHEMISTRY</span>
+                        </div>
+                    </div>
+                    <hr className='my-2'/>
+                    <div>
+                        <div className='flex gap-x-2'>
+                            <span>Subjects:</span>
+                            <span>General Reasoning, Science and Mathematics</span>
+
+                        </div>
+                        
+                        <div className='flex gap-x-2'>
+                            <span>Grade:</span>
+                            <span>1-12</span>
+
+                        </div>
+                        <div className='flex gap-x-2'>
+                        <span>Experience:</span>
+                        <span>
+                         13+ years
+                        </span>
+                        </div>
+                        <div className='flex gap-x-2'>
+                            <span>Bio:</span>
+                            <span>I authored a math and quantitative reasoning book currently incorporated in schools' curiculum. I have successfully transformed 'F' students to 'A' students and on several .......</span>
+                        </div>             
+                    </div>
+                    <button className='text-white bg-blue-bg py-2 px-2 font-bold my-5 rounded-lg'>View Full Profile</button>
+                </div>
+
+                <div className='w-[350px] shadow-md px-3 py-3'>
                     <div className='flex items-center gap-x-3'>
                         <img src={pic1} alt="" />
                         <div>

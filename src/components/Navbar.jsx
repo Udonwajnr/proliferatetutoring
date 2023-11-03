@@ -25,7 +25,7 @@ const Navbar = () => {
                         <Link to={'/'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Pricing</Link>
                     </li>
                     <li>
-                        <Link to={'/'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Blog</Link>
+                        <Link to={'/blogdetail'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Blog</Link>
                     </li>
                     <li>
                         <Link to={'/contact'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Contact</Link>

@@ -193,3 +193,11 @@
   background-position: center;
   background-size: cover;
 }
+
+/* blog detail */
+.blog{
+  background-image: url('./assets/Rect6.png');  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

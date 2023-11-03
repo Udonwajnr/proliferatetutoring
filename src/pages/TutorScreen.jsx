@@ -18,29 +18,30 @@ const TutorScreen = () => {
                 </div>
         </section>
 
-        <section className='px-10'>
+        <section className='px-10 py-10'>
             <div>
-                <h2 className='text-blue-bg font-bold text-[35px]'>
+                <h2 className='text-blue-bg font-bold text-[35px] text-center'>
                 Unlock Your Full Potential with Our Prolific Tutors
                 </h2>
-                <p>
+                <p className='py-4'>
                 Our team of experienced tutors are here to help you achieve your academic goals and reach your full potential. We understand that every student is unique, with different learning styles and needs, and that’s why we offer personalized tutoring services to ensure that you get the support you need to succeed.Our tutors are highly qualified and experienced in their respective fields, and they are passionate about helping students like you achieve academic success. Whether you need help with math, english, french or other languages, coding, science, writing, or test preparation or homework help, we have a tutor who can guide you through the complexities of the subject matter and help you build the skills you need to succeed.
                 </p>
             </div>
         </section>
 
         <section className='px-10 '>
-            <hr />
+            <hr  className='border w-9/12 m-auto my-10'/>
             <div>
-                <h1 className='text-blue-bg font-bold text-[35px] text-center'>Schedule a call today and take the first step towards achieving your child's academic goals!</h1>
+                <h1 className='text-blue-bg font-bold text-[30px] text-center'>Schedule a call today and take the first step towards achieving your child's academic goals!</h1>
             </div>
-            <div className='flex'>
-                <input type="text" className='border h-10 w-full focus:outline-none' placeholder='Search by grades, subject, availability....' />
+            <div className='flex my-6 justify-center items-center'>
+                <input type="text" className='border h-14 px-5  focus:outline-none w-9/12 ' placeholder='Search by grades, subject, availability....' />
                 <button className='bg-blue-bg text-white py-2 w-44 font-bold'>Search</button>
             </div>
         </section>
 
         <section className='flex px-10 py-10 gap-x-5 mt-10'>
+            {/* left */}
             <div className='w-2/12 p-3 border'>
                 <form action="">
                     <div className='mt-2'>
@@ -71,15 +72,17 @@ const TutorScreen = () => {
                     <div className='mt-10'>
                       <label htmlFor="">Popular Tags</label>
                       <div className='flex flex-wrap gap-4 my-4 '>
-                        <div className='border px-3 py-2 border-[#23A6F0] text-[#23A6F0]'> Math (9) </div>  
-                        <div className='border p-2  border-[#23A6F0] text-[#23A6F0]'> English (15)</div>  
-                        <div className='border p-2 border-[#23A6F0] text-[#23A6F0]'> Science</div>  
-                            <div className='border p-2 border-[#23A6F0] text-[#23A6F0]'>French</div>  
+                        <div className='border px-3 py-2 border-[#23A6F0] text-[#23A6F0] flex items-center gap-x-3'> Math (9) <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"></path></svg> </div>  
+                        <div className='border p-2  border-[#23A6F0] text-[#23A6F0] flex items-center gap-x-3'> English (15) <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"></path></svg></div>  
+                        <div className='border p-2 border-[#23A6F0] text-[#23A6F0] flex items-center gap-x-3'> Science <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"></path></svg></div>  
+                            <div className='border p-2 border-[#23A6F0] text-[#23A6F0] flex items-center gap-x-3'>French <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"></path></svg></div>  
                       </div>  
                     </div>
                     
                 </form>
             </div>
+
+            {/* right */}
 
             <div className='flex flex-wrap gap-4 justify-between w-10/12 items-start'>
                 {/* profile card */}

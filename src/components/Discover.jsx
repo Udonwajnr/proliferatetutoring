@@ -20,28 +20,30 @@ const Discover = () => {
     const swiper = useSwiper();
 
   return (
-    <section>
+    <section className='py-10 px-10'>
         <div>
-            <div className='flex flex-col justify-center items-center gap-y-3'>
+            <div className='flex flex-col justify-center items-center gap-y-2'>
                     <h2 className='text-[#186BAD] font-bold text-[40px]'>Discover our top subjects</h2>
                         <div className='border w-32 border-[#D23221]'></div>
                 </div>
 
-                <p className='text-[#898A8B] text-md text-center'>
-                Unlock a world of knowledge with our most sought-after 
-                    subjects. Explore, learn, and excel in the areas that pique your 
-                    curiosity and passion.
-                </p>
+                    <div className='w-[700px] m-auto text-center'>
+                        <p className='text-[#898A8B] text-md text-center mt-5'>
+                        Unlock a world of knowledge with our most sought-after 
+                            subjects. Explore, learn, and excel in the areas that pique your 
+                            curiosity and passion.
+                        </p>
+                    </div>
 
         <div className='relative'>
             <Swiper
                 spaceBetween={30}
                 freeMode={true}
                 slidesPerView={4}
-                // autoplay={{
-                //   delay: 2500,
-                //   disableOnInteraction: false,
-                // }}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
                 modules={[Autoplay, Navigation]}
                 className="mySwiper"
             >
@@ -230,9 +232,8 @@ const Discover = () => {
                </svg>
                 </SwiperButtonPrev>
             </Swiper>
-          <div className='flex items-center justify-center mt-6'>
+          <div className='flex items-center justify-center mt-10'>
             <button className='py-3 px-3 bg-blue-bg rounded-2xl text-white'>Explore Our Subjects</button>
-
           </div>
         </div>
 

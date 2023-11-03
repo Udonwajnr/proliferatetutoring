@@ -5,12 +5,18 @@ import card1 from "../assets/card.png"
 
 const PaymentPlan = () => {
   return (
-    <section>
+    <section className='py-10'>
         <div className='flex flex-col justify-center items-center gap-y-3'>
                     <h2 className='text-[#186BAD] font-bold text-[40px]'>Our Payment Plan</h2>
                         <div className='border w-32 border-[#D23221]'></div>
             </div>
-            <p className='text-[#898A8B] text-md text-center my-4'>Lorem ipsum dolor sit amet consectetur. Sit est feugiat morbi fermentum neque morbi nulla quam. Enim aliquet ullamcorper tellus diam lorem arcu aliquet orci pellentesque. Donec at at suspendisse sollicitudin. Posuere id nibh porta lectus in.</p>
+            <div className='w-[700px] m-auto text-center'>
+                    <p className='text-[#898A8B] text-md text-center my-5'>
+                    Unlock a world of knowledge with our most sought-after 
+                                    subjects. Explore, learn, and excel in the areas that pique your 
+                                    curiosity and passion.
+                        </p>
+            </div>
             <div className='flex gap-x-6 justify-center mt-10'>
                 <div>
                     <div className='card w-[350px] h-[500px] rounded-2xl border-8 border-[#34A7FA] flex flex-col gap-y-10 justify-center items-center'>

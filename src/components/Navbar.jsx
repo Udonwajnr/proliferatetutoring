@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <header className='px-4 py-4 '>
+    <header className='px-10 py-4 '>
         <nav className='flex items-center justify-between'>
             <div className="logo">
                 <Link to={"/"}>

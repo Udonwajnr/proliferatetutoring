@@ -5,7 +5,7 @@ const WhatWeOffer = () => {
   return (
 
     <section className='h-[600px] py-10'>
-        <div className='flex flex-col justify-center items-center gap-y-3'>
+        <div className='flex flex-col justify-center items-center gap-y-2'>
                 <h2 className='text-[#186BAD] font-bold text-[40px]'>What We Offer</h2>
                     <div className='border w-32 border-[#D23221]'></div>
             </div>

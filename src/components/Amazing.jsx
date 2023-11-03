@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 
 const Amazing = () => {
   return (
-    <section>
+    <section className='py-10'>
           <div className='flex flex-col justify-center items-center gap-y-3'>
                     <h2 className='text-[#186BAD] font-bold text-[40px]'>What our amazing users say</h2>
                         <div className='border w-32 border-[#D23221]'></div>
@@ -23,10 +23,10 @@ const Amazing = () => {
                 spaceBetween={30}
                 freeMode={true}
                 slidesPerView={4}
-                // autoplay={{
-                //   delay: 2500,
-                //   disableOnInteraction: false,
-                // }}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
           
                 modules={[Autoplay, Navigation]}
                 className="mySwiper"

@@ -14,7 +14,7 @@ const Navbar = () => {
             <div>
                 <ul className='flex space-x-4 py-2'>
                     <li className=''>
-                        <Link to={'/'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Find Tutors</Link>
+                        <Link to={'/tutor'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Find Tutors</Link>
                     </li><li>
                         <Link to={'/about'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>About Us</Link>
                     </li>

@@ -186,3 +186,10 @@
   
 
 }
+/* tutor screen */
+.tutor{
+  background-image: url('./assets/01.png');  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

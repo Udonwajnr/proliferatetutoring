@@ -1,9 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { createBrowserRouter,RouterProvider,Route,Link,} from 'react-router-dom'
 import './App.css'
-import Layout from './components/Layout'
 import Login from './pages/Login'
 import SignUpOptions from './pages/SignUpOptions'
 import Register from './pages/Register'
@@ -20,6 +16,7 @@ import TutorsMessages from './pages/tutorDashBoard/TutorsMessages'
 import TutorsClasses from './pages/tutorDashBoard/TutorsClasses'
 import TutorsProfile from './pages/tutorDashBoard/TutorsProfile'
 import TutorsReport from './pages/tutorDashBoard/TutorsReport'
+import TutorScreen from './pages/TutorScreen'
 
 const router = createBrowserRouter([
   {
@@ -91,6 +88,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <AboutUs/>,
+  },
+  {
+    path: "tutor",
+    element: <TutorScreen/>,
   },
 ]);
 

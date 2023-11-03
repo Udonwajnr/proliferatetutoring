@@ -9,7 +9,7 @@ import Linkedin from '../assets/Linkedin.png'
 
 const MainFooter = () => {
   return (
-    <footer className='bg-[#007AB9] py-10 px-5 '>
+    <footer className='bg-[#007AB9] py-10 px-10'>
        <div className='flex justify-between'>
             <div className='w-6/12'>
                 <div>

@@ -18,7 +18,6 @@ const AboutUs = () => {
             <img src={girl} alt="boy" className='absolute top-4 ' />
             <img src={square2} alt="square" />
         </div>
-
         <section>
                 <div className='relative'>
                     <img src={pic} alt="" className='w-full h-full'/>

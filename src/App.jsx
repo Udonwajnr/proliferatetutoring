@@ -23,16 +23,11 @@ import PageError from './pages/PageError'
 
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage/>
-  },
-  
+  //authentication
   {
     path: "/login",
     element: <Login/>
-  },
-  
+  },  
   {
     path: "signupoption",
     element: <SignUpOptions/>,
@@ -41,41 +36,7 @@ const router = createBrowserRouter([
     path: "signuptutor",
     element: <SignUpTutor/>,
   },
-  {
-    path: "becomeatutor",
-    element: <BecomeATutor/>,
-  },
-  {
-    path: "tutorsignupprofile",
-    element: <TutorProfile/>,
-  },
-  // admin tutor
-  {
-    path: "tutormessages",
-    element: <TutorsMessages/>,
-  },
 
-  {
-    path: "tutorClasses",
-    element: <TutorsClasses/>,
-  },
-  {
-    path: "tutorprofile",
-    element: <TutorsProfile/>,
-  },
-
-  {
-    path: "tutorreport",
-    element: <TutorsReport/>,
-  },
-  {
-    path: "tutordashboard",
-    element: <DashBoardTutor/>,
-  },
-  {
-    path: "contact",
-    element: <ContactUs/>,
-  },
   {
     path: "register",
     element: <Register/>,
@@ -87,6 +48,45 @@ const router = createBrowserRouter([
   {
     path: "verificationemail",
     element: <VerifyEmail/>,
+  },
+  {
+    path: "becomeatutor",
+    element: <BecomeATutor/>,
+  },
+
+  
+  // admin tutor
+  {
+    path: "tutor/signupprofile",
+    element: <TutorProfile/>,
+  },
+  {
+    path: "tutor/messages",
+    element: <TutorsMessages/>,
+  },
+
+  {
+    path: "tutor/classes",
+    element: <TutorsClasses/>,
+  },
+  {
+    path: "tutor/profile",
+    element: <TutorsProfile/>,
+  },
+
+  {
+    path: "tutor/report",
+    element: <TutorsReport/>,
+  },
+  {
+    path: "tutor/dashboard",
+    element: <DashBoardTutor/>,
+  },
+  //  tutor ending route
+
+  {
+    path: "/",
+    element: <HomePage/>
   },
 
   {
@@ -105,6 +105,11 @@ const router = createBrowserRouter([
     path: "blogdetail",
     element: <BlogDetails/>,
   },
+   {
+    path: "contact",
+    element: <ContactUs/>,
+  },
+  
   {
     path: "*",
     element: <PageError/>,

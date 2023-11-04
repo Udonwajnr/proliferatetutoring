@@ -213,3 +213,41 @@
   background-position: right;
   background-repeat: no-repeat;
 }
+
+/* tutor dashboard  */
+.circular-progress{
+  position: relative;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background:conic-gradient(#186BAD 115.2deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-progress::before{
+  content:"";
+  position:absolute ;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #F0F7FF;
+}
+.progress-value{
+  position: relative;
+}
+
+.classProgress::-webkit-scrollbar {
+  width: 8px;
+}
+
+.classProgress::-webkit-scrollbar-track {
+  background: #D9D9D9;        /* color of the tracking area */
+  border-radius: 30px;
+}
+
+.classProgress::-webkit-scrollbar-thumb {
+  background-color:#186BAD;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}

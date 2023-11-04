@@ -19,6 +19,7 @@ import TutorsReport from './pages/tutorDashBoard/TutorsReport'
 import TutorScreen from './pages/TutorScreen'
 import BlogDetails from './pages/BlogDetails'
 import PricePage from './pages/PricePage'
+import PageError from './pages/PageError'
 
 
 const router = createBrowserRouter([
@@ -103,6 +104,10 @@ const router = createBrowserRouter([
   {
     path: "blogdetail",
     element: <BlogDetails/>,
+  },
+  {
+    path: "*",
+    element: <PageError/>,
   },
 ]);
 

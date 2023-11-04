@@ -206,3 +206,10 @@
 .accordion{
   border-top: 1px solid #CDD6DA;
 }
+
+ /* error page  */
+.errorPage{
+  background-image: url('./assets/404.png');
+  background-position: right;
+  background-repeat: no-repeat;
+}

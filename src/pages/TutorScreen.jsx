@@ -36,7 +36,7 @@ const TutorScreen = () => {
             </div>
             <div className='flex my-6 justify-center items-center'>
                 <input type="text" className='border h-14 px-5  focus:outline-none w-9/12 ' placeholder='Search by grades, subject, availability....' />
-                <button className='bg-blue-bg text-white py-2 w-44 font-bold'>Search</button>
+                <button className='bg-blue-bg text-white py-2 w-44 h-14 font-bold '>Search</button>
             </div>
         </section>
 

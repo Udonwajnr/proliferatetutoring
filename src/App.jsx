@@ -18,6 +18,8 @@ import TutorsProfile from './pages/tutorDashBoard/TutorsProfile'
 import TutorsReport from './pages/tutorDashBoard/TutorsReport'
 import TutorScreen from './pages/TutorScreen'
 import BlogDetails from './pages/BlogDetails'
+import PricePage from './pages/PricePage'
+
 
 const router = createBrowserRouter([
   {
@@ -89,6 +91,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <AboutUs/>,
+  },
+  {
+    path: "price",
+    element: <PricePage/>,
   },
   {
     path: "tutor",

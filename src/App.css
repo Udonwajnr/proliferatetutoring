@@ -201,3 +201,8 @@
   background-position: center;
   background-size: cover;
 }
+
+/* accordion css */
+.accordion{
+  border-top: 1px solid #CDD6DA;
+}

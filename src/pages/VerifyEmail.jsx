@@ -11,7 +11,7 @@ const VerifyEmail = () => {
             <p className='text-[30px] my-4'>Check your inbox for an email from Proliferate.ai 
                 and click the verification link to confirm your email address.
             </p>
-            <Link to={"/"} className='text-md bg-blue-bg text-center text-white font-bold w-[400px] py-2 rounded-lg m-auto'>Confirm Email</Link>
+            <Link to={"/tutor/dashboard"} className='text-md bg-blue-bg text-center text-white font-bold w-[400px] py-2 rounded-lg m-auto'>Confirm Email</Link>
 
         </div>
             </section>

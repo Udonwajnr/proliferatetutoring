@@ -1,13 +1,13 @@
 import React from 'react'
-import Vector6 from '../assets/Vector_6.png'
-import img13 from '../assets/image13.png'
-import previous3 from '../assets/previous3.png'
-import next3 from '../assets/next3.png'
 
+import Vector6 from '../../assets/Vector_6.png'
+import img13 from '../../assets/image13.png'
+import previous3 from '../../assets/previous3.png'
+import next3 from '../../assets/next3.png'
 
-const TutorPageHeader = () => {
+const StudentHeader = () => {
   return (
-  <header className='flex py-3 items-center w-full justify-between'>
+    <header className='flex py-3 items-center w-full justify-between'>
         <h2 className='text-[30px] font-bold'>Welcome</h2>
         
         <div className='flex items-center bg-[#57C1F2] px-3 py-2 rounded-2xl w-40 justify-between'>
@@ -53,8 +53,8 @@ const TutorPageHeader = () => {
                 </div>
             </form>
         </div>
-  </header>
+    </header>
   )
 }
 
-export default TutorPageHeader
+export default StudentHeader

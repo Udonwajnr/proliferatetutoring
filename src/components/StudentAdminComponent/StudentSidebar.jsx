@@ -1,16 +1,17 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
-import img from '../assets/man_and_woman_working_at_table_with_laptop.png'
-import logout from '../assets/Logout.png'
-import chat from '../assets/Chat.png'
-import icon from '../assets/Icon1.png'
+import img from '../../assets/man_and_woman_working_at_table_with_laptop.png'
+import logout from '../../assets/Logout.png'
+import chat from '../../assets/Chat.png'
+import student from '../../assets/student.png'
+import icon from '../../assets/Icon1.png'
+import Icon from '../../assets/Icon.png'
+import avatar from '../../assets/Avatar.png'
 
-import Icon from '../assets/Icon.png'
-import avatar from '../assets/Avatar.png'
 
 
-const TutorsSideBar = () => {
+const StudentSidebar = () => {
   return (
     <aside className='bg-[#2977B5] w-2/12  py-11 sticky top-0 flex flex-col space-y-16 h-[133vh]'>
             <div>
@@ -153,4 +154,4 @@ const TutorsSideBar = () => {
   )
 }
 
-export default TutorsSideBar
+export default StudentSidebar

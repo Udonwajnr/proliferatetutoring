@@ -20,7 +20,8 @@ import TutorScreen from './pages/TutorScreen'
 import BlogDetails from './pages/BlogDetails'
 import PricePage from './pages/PricePage'
 import PageError from './pages/PageError'
-
+import StudentDashboard from './pages/studentDashboard/StudentDashboard'
+import AdminDashboard from './pages/adminDashboard/AdminDashboard'
 
 const router = createBrowserRouter([
   //authentication
@@ -36,7 +37,6 @@ const router = createBrowserRouter([
     path: "signuptutor",
     element: <SignUpTutor/>,
   },
-
   {
     path: "register",
     element: <Register/>,
@@ -53,9 +53,8 @@ const router = createBrowserRouter([
     path: "becomeatutor",
     element: <BecomeATutor/>,
   },
-
   
-  // admin tutor
+  // admin tutor route
   {
     path: "tutor/signupprofile",
     element: <TutorProfile/>,
@@ -82,8 +81,25 @@ const router = createBrowserRouter([
     path: "tutor/dashboard",
     element: <DashBoardTutor/>,
   },
-  //  tutor ending route
 
+  // admin  tutor ending route
+
+
+  // student admin route
+  {
+    path: "student/dashboard",
+    element: <StudentDashboard/>,
+  },
+  // student admin route ending
+  
+  // Admin Dashboard
+  
+  {
+    path: "admin/dashboard",
+    element: <AdminDashboard/>,
+  },
+
+  // admin Dashboard ending
   {
     path: "/",
     element: <HomePage/>
@@ -109,11 +125,14 @@ const router = createBrowserRouter([
     path: "contact",
     element: <ContactUs/>,
   },
-  
+
+  // error page
   {
     path: "*",
     element: <PageError/>,
   },
+
+
 ]);
 
 

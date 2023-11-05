@@ -12,7 +12,7 @@ const PricePage = () => {
                 <div className='relative'>
                     <img src={pic} alt="" className='w-full h-full'/>
                     <div className='absolute text-center top-[50%] w-full'>
-                        <h3 className='text-white font-bold text-[40px]'>Pricing Plan</h3>
+                        <h3 className='text-white font-bold text-[24px]'>Pricing Plan</h3>
                     </div>
                 </div>
         </section>

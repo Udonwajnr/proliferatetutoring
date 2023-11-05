@@ -12,13 +12,13 @@ const ContactUs = () => {
                 <div className='relative'>
                     <img src={square3} alt="" className='w-full h-full'/>
                     <div className='absolute text-center top-[50%] w-full'>
-                        <h3 className='text-white font-bold'>CONTACT US</h3>
+                        <h3 className='text-white font-bold text-[24px]'>CONTACT US</h3>
                     </div>
                 </div>
         </section>
 
         <section className='h-[800px] py-3 flex justify-center items-center'>
-            <div className='flex space-x-7 w-full'>
+            <div className='flex space-x-7 w-full px-10 p-10'>
                 <div className='w-6/12'>
                     <h1 className='text-blue-bg font-bold'>CONTACT US</h1>
                     <p className='mt-2 font-bold'>GET IN TOUCH WITH US</p>

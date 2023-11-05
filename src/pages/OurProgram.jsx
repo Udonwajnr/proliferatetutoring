@@ -4,6 +4,11 @@ import img from "../assets/p.png"
 import img2 from "../assets/o.png"
 import img3 from "../assets/q.png"
 import img4 from "../assets/r.png"
+import { Link } from 'react-router-dom'
+import img5 from "../assets/girl_giving_an_online_lesson.png"
+import img6 from '../assets/young_boys _and_young_girl_jumping.png'
+import img7 from "../assets/boy_and_girl_sitting_in_front_of_laptop.png"
+import Layout from '../components/Layout'
 
 const OurProgram = () => {
   return (
@@ -70,79 +75,120 @@ const OurProgram = () => {
         </section>
 
 
-        <section className='relative px-10'>
-            <div className='w-40 h-40 bg-blue-bg'></div>
+        <section className='relative px-10 h-[800px]'>
+           <div>
+                <div className='w-40 h-40 bg-blue-bg absolute top-0'></div>
+            
+                <div className='relative py-16 px-32 top-9 bg-white shadow-lg mx-24 my-4'>
+                    <div className='my-5'>
+                        <h2 className='text-blue-bg font-bold text-[35px]'>Key Features of Our Program.</h2>
+                        <p className='font-bold text-[18px]'>Our program encompasses a variety of key features to enhance your learning experience:</p>
+                    </div>
+                    
+                    <ul className='list-decimal text-[20px] flex flex-col space-y-5'>
+                        <li className='text-blue-bg font-bold'>
+                            One-on-One Tutoring:
+                            <ul className='list-disc text-black font-bold ml-7'>
+                                <li>
+                                    Personalized support with dedicated tutors.
+                                </li>
 
-            <div className='relative py-16 px-32 bg-white shadow-lg mx-10 my-4'>
-                <div className='my-5'>
-                    <h2 className='text-blue-bg font-bold text-[35px]'>Key Features of Our Program.</h2>
-                    <p className='font-bold text-[18px]'>Our program encompasses a variety of key features to enhance your learning experience:</p>
+                                <li>
+                                    Group Tutoring: Collaborative learning in tutor-led group sessions.
+                                </li>
+                                <li>
+                                    Subject-Specific Tutoring: Support for a wide range of subjects and topics.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li className='text-blue-bg font-bold'>
+                                Educational Resources
+                            <ul className='list-disc text-black font-bold ml-7'>
+                                <li>
+                                Library of Materials: Access to textbooks, study guides, and educational materials.
+                                </li>
+
+                                <li>
+                                Online Resources: A vast collection of online resources to aid your learning.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li className='text-blue-bg font-bold'>
+                        Personalized Support
+                            <ul className='list-disc text-black font-bold ml-7'>
+                                <li>
+                                Mentoring and Academic Guidance: Mentorship to help you set and achieve educational and career goals.
+                                </li>
+
+                                <li>
+                                Career and College Counselling: Guidance on college applications and career choices.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li className='text-blue-bg font-bold'>
+                        Flexible Learning Options
+                            <ul className='list-disc text-black font-bold ml-7'>
+                                <li>
+                                    Self-Paced Learning: Study at your own pace using our resources.
+                                </li>   
+                                <li>
+                                Test Preparation: Courses and materials for standardized tests.
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
                 </div>
                 
-                <ul className='list-decimal text-[20px] flex flex-col space-y-5'>
-                    <li className='text-blue-bg font-bold'>
-                         One-on-One Tutoring:
-                         <ul className='list-disc text-black font-bold ml-7'>
-                            <li>
-                                Personalized support with dedicated tutors.
-                            </li>
-
-                            <li>
-                                Group Tutoring: Collaborative learning in tutor-led group sessions.
-                            </li>
-                            <li>
-                                Subject-Specific Tutoring: Support for a wide range of subjects and topics.
-                            </li>
-                         </ul>
-                    </li>
-
-                    <li className='text-blue-bg font-bold'>
-                            Educational Resources
-                         <ul className='list-disc text-black font-bold ml-7'>
-                            <li>
-                            Library of Materials: Access to textbooks, study guides, and educational materials.
-                            </li>
-
-                            <li>
-                            Online Resources: A vast collection of online resources to aid your learning.
-                            </li>
-                         </ul>
-                    </li>
-
-                    <li className='text-blue-bg font-bold'>
-                    Personalized Support
-                         <ul className='list-disc text-black font-bold ml-7'>
-                            <li>
-                            Mentoring and Academic Guidance: Mentorship to help you set and achieve educational and career goals.
-                            </li>
-
-                            <li>
-                            Career and College Counselling: Guidance on college applications and career choices.
-                            </li>
-                         </ul>
-                    </li>
-
-                    <li className='text-blue-bg font-bold'>
-                       Flexible Learning Options
-                         <ul className='list-disc text-black font-bold ml-7'>
-                            <li>
-                                Self-Paced Learning: Study at your own pace using our resources.
-                            </li>   
-                            <li>
-                               Test Preparation: Courses and materials for standardized tests.
-                            </li>
-                         </ul>
-                    </li>
-
-                </ul>
-            </div>
-            
-            <div className='flex relative z-20 justify-end'>
-                <div className=' w-40 h-40 bg-blue-bg relative'></div>
-
-            </div>
-
+                    <div className=' w-40 h-40 bg-blue-bg absolute bottom-0 right-10 -z-10 '></div>
+           </div>
         </section>
+
+        <section className=''>
+            <div>
+                <h1>Who Can Benefit from Our Program?</h1>
+                <p>Proliferate.ai's program is designed for a broad spectrum of students and learners, including:</p>
+            </div>
+
+            <div className='flex'>
+                <Link className='hover:bg-ash cursor-pointer transition duration-100 hover:transition hover:duration-100' to={"/register"}>
+                    <div className='border p-5 rounded-xl w-64'>
+                        <div className='flex justify-center flex-col items-center'>
+                            <h2 className='font-bold text-[36px]'>As Student</h2>
+                            <img src={img7} alt="" />
+                            <Link to={"/register"} className='text-white bg-blue-bg font-bold px-5 py-2 rounded-lg mt-4' >Sign Up</Link>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link className='hover:bg-ash cursor-pointer transition duration-100 hover:transition hover:duration-100' to={"/signuptutor"}>
+                    <div className='border p-5 rounded-xl w-64 '>
+                        <div className='flex justify-center flex-col items-center'>
+                            <h2 className='font-bold text-[36px]'>As Tutor</h2>
+                            <img src={img5} alt="" />
+                            <Link to={"/signuptutor"} className='text-white bg-blue-bg font-bold px-5 py-2 rounded-lg mt-4'>Sign Up</Link>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link className='hover:bg-ash cursor-pointer transition duration-100 hover:transition hover:duration-100' to={"/register"}>
+                    <div className='border p-5 rounded-xl w-64 hover:bg-ash cursor-pointer transition duration-100 hover:transition hover:duration-100'>
+                        <div className='flex justify-center flex-col items-center'>
+                            <h2 className='font-bold text-[36px]'>As Group</h2>
+                            <img src={img6} alt="" />
+                            <Link to={"/register"} className='text-white bg-blue-bg font-bold px-5 py-2 rounded-lg mt-4'>Sign Up</Link>
+                        </div>
+                    </div>
+                </Link>
+                
+
+            </div>
+
+        </section>    
+
 
     </MainLayout>
   )

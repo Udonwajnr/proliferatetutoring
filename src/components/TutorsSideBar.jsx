@@ -19,9 +19,9 @@ const TutorsSideBar = () => {
         <div className='flex flex-col justify-center items-center space-y-16'>
 
             <div className='w-full px-10'>
-                <ul className='flex flex-col space-y-3 '>
+                <ul className='flex flex-col space-y-3'>
                     <li>
-                        <Link to={'/tutor/dashboard'} className='flex w-full items-center text-white gap-x-3 w-full bg-link-blue hover:bg-hover-blue py-3 px-2'>
+                        <Link to={'/tutor/dashboard'} className='flex items-center text-white gap-x-3 w-full bg-link-blue hover:bg-hover-blue py-3 px-2'>
                             <svg width="30" height="30" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.6663 7.49881C14.6663 6.69214 14.1263 5.65881 13.4663 5.19881L9.34634 2.31214C8.41301 1.65881 6.91301 1.69214 6.01301 2.39214L2.41967 5.19214C1.81967 5.65881 1.33301 6.65214 1.33301 7.40547V12.3455C1.33301 13.8921 2.59301 15.1588 4.13967 15.1588H11.8597C13.4063 15.1588 14.6663 13.8921 14.6663 12.3521V10.2855" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M8 12.4922V10.4922" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

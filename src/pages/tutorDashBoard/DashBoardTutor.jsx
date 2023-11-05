@@ -89,7 +89,7 @@ const DashBoardTutor = () => {
 
                         </div>
                     </div>
-                      <ComposedChart className='' width={576} height={450} data={data}>
+                      <ComposedChart className='' width={510} height={450} data={data}>
                               <XAxis dataKey="name" />
                               <YAxis />
                               <Tooltip />
@@ -282,7 +282,7 @@ const DashBoardTutor = () => {
             </div>
           <div>
 
-              <LineChart width={576} height={450} data={data}
+              <LineChart width={510} height={450} data={data}
 
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />

@@ -5,24 +5,24 @@ import avatar from '../../assets/Avatar.png'
 
 const AdminSidebar = () => {
   return (
-    <aside className='bg-[#F2F1F1] w-2/12  py-11 sticky top-0 flex flex-col space-y-16 h-[133vh]'>
-      <div>
+    <aside className='bg-[#F2F1F1] w-2/12  py-11 sticky top-0 flex flex-col justify-between items-center space-y-16 h-[100vh]'>
+      <div className=''>
           <img src={logo} alt="" />
       </div>
 
-      <div>
-        <ul>
+      <div className='w-full px-10'>
+        <ul className='flex flex-col space-y-3 '>
           <li>
-            <Link to={"/"}>Analytics</Link>
+            <Link to={"/"} className='block w-full text-md hover:bg-[#D9D9D9] py-3 px-2 '>Analytics</Link>
           </li>
           <li>
-            <Link to={"/"}>Users</Link>
+            <Link className='block w-full text-md hover:bg-[#D9D9D9] py-3 px-2 ' to={"/"}>Users</Link>
           </li>
           <li>
-            <Link to={"/"}>Transaction</Link>
+            <Link className='block w-full text-md hover:bg-[#D9D9D9] py-3 px-2 ' to={"/"}>Transaction</Link>
           </li>
           <li>
-            <Link to={"/"}>Onboarding</Link>
+            <Link className='block w-full text-md hover:bg-[#D9D9D9] py-3 px-2 ' to={"/"}>Onboarding</Link>
           </li>
         </ul>
       </div>
@@ -35,8 +35,8 @@ const AdminSidebar = () => {
                 <div className='flex items-center space-x-3'>
                     <img src={avatar} className='w-10 h-10 rounded-full' alt="avatar" />
                     <div className=''>
-                        <h3 className='text-white'>Olivia Rhye</h3>
-                        <span className='text-white'>olivia@-learning.com</span>
+                        <h3 className='text-black'>Olivia Rhye</h3>
+                        <span className='text-[#898A8B]'>olivia@-learning.com</span>
                     </div>
                 </div>
       </div>

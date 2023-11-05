@@ -22,6 +22,7 @@ import PricePage from './pages/PricePage'
 import PageError from './pages/PageError'
 import StudentDashboard from './pages/studentDashboard/StudentDashboard'
 import AdminDashboard from './pages/adminDashboard/AdminDashboard'
+import OurProgram from './pages/OurProgram'
 
 const router = createBrowserRouter([
   //authentication
@@ -121,10 +122,15 @@ const router = createBrowserRouter([
     path: "blogdetail",
     element: <BlogDetails/>,
   },
-   {
+  {
     path: "contact",
     element: <ContactUs/>,
   },
+  {
+    path: "program",
+    element: <OurProgram/>,
+  },
+
 
   // error page
   {

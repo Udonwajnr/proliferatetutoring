@@ -19,17 +19,17 @@ const AboutUs = () => {
                 <div className='relative'>
                     <img src={pic} alt="" className='w-full h-full'/>
                     <div className='absolute text-center top-[50%] w-full'>
-                        <h3 className='text-white font-bold text-[24px]'>ABOUT US</h3>
+                        <h3 className='text-white font-bold text-[24px] '>ABOUT US</h3>
                     </div>
                 </div>
         </section>
 
         <section>
-            <div className='h-[600px]'>
+            <div className='h-[600px] px-10'>
                     <div className='flex items-center space-x-10'>
                         <div className='relative w-6/12'>
-                            <img src={boy2} alt="boy" className='absolute top-10 left-12' />
-                            <img src={square} alt="square" />
+                            <img src={boy2} alt="boy" className='absolute top-6 left-4 max-w-[450px]' />
+                            <img src={square} alt="square" className='max-w-[450px]'/>
                         </div>
                         <div className='w-6/12'>
                             <h2 className='text-blue-bg my-4 text-[40px] font-bold'>ABOUT US</h2>

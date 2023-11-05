@@ -15,11 +15,11 @@ const Navbar = () => {
                 <ul className='flex space-x-4 py-2'>
                     <li className=''>
                         <Link to={'/tutor'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Find Tutors</Link>
-                    </li><li>
+                    </li><li>.
                         <Link to={'/about'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>About Us</Link>
                     </li>
                     <li>
-                        <Link to={''} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Our Programs</Link>
+                        <Link to={'/program'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Our Programs</Link>
                     </li>
                     <li>
                         <Link to={'/price'} className='hover:bg-red-600 py-2 px-1 hover:text-white font-bold'>Pricing</Link>

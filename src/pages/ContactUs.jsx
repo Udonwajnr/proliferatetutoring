@@ -20,7 +20,7 @@ const ContactUs = () => {
         <section className='h-[800px] py-3 flex justify-center items-center'>
             <div className='flex space-x-7 w-full px-10 p-10'>
                 <div className='w-6/12'>
-                    <h1 className='text-blue-bg font-bold'>CONTACT US</h1>
+                    <h1 className='text-blue-bg font-bold text-[24px]'>CONTACT US</h1>
                     <p className='mt-2 font-bold'>GET IN TOUCH WITH US</p>
 
                     <p className='my-9 font-bold max-w-[800px]'>
@@ -49,7 +49,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className='bg-blue-bg py-5 h-full  w-6/12'>
-                    <form action="" className='bg-white max-w-[700px] flex flex-col space-y-4 px-4 py-4 shadow-xl h-5/6 right-16 relative'>
+                    <form action="" className='bg-white max-w-[600px] flex flex-col space-y-4 px-4 py-4 shadow-xl h-5/6 right-16 relative'>
                         <div className='w-full'>
                             <input type="text" className='w-full bg-ash h-12 px-3 focus:outline-none rounded-md'  placeholder='YOUR NAME'/>
                         </div>

@@ -217,8 +217,8 @@
 /* tutor dashboard  */
 .circular-progress{
   position: relative;
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   background:conic-gradient(#186BAD 115.2deg, #ededed 0deg);
   display: flex;
@@ -229,8 +229,8 @@
 .circular-progress::before{
   content:"";
   position:absolute ;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   background-color: #F0F7FF;
 }

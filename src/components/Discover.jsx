@@ -63,7 +63,7 @@ const Discover = () => {
                                 <div className='absolute  h-full z-10  text-white text-[23px] w-full  top-0'>
                                     <div className='flex justify-between items-center px-3  h-full'>
                                         <div className='w-11/12 break-normal'>
-                                            <h3 className='text-[40px]' >Data analysis (Advanced)</h3>
+                                            <h3 className='text-[25px]' >Data analysis (Advanced)</h3>
                                         </div>
                                         <div className='w-1/12 mt-7'>
                                             <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">

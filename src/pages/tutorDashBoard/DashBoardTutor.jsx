@@ -72,7 +72,7 @@ const DashBoardTutor = () => {
                 <div className='shadow-lg  w-4/12 bg-white'>
                     <div className='flex justify-between px-6'>
                       
-                        <h2 className='text-[30px] my-2'>Student Statistic</h2>
+                        <h2 className='text-[20px] my-2'>Student Statistic</h2>
                         <div className='flex items-center space-x-4'>
                         <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M5.46682 0.141546C5.20038 0.141546 4.93496 0.246881 4.73565 0.456518L0.807242 4.5873C0.422842 4.99314 0.427927 5.63651 0.820462 6.03513L4.88819 10.1659C5.28479 10.5697 5.92851 10.5697 6.32613 10.1659C6.72273 9.76213 6.72273 9.10947 6.32613 8.70568L2.96517 5.29263L6.19799 1.89196C6.58849 1.48095 6.57731 0.827255 6.17359 0.431733C5.97528 0.237587 5.72105 0.141546 5.46682 0.141546Z" fill="#2E3A59"/>
@@ -104,62 +104,61 @@ const DashBoardTutor = () => {
 
           {/* progress */}
                 <div className='w-4/12 px-6 py-2 bg-white overflow-y-auto classProgress'>
-                    <h1 className='text-[30px] my-2'>Class Progress</h1>
+                    <h1 className='text-[20px] my-2'>Class Progress</h1>
                     <div className=' px-2 flex flex-col gap-y-5'>
                       <div className='bg-[#F0F7FF] flex items-center justify-between px-5 py-3 rounded-lg'>
                         <div>
-                          <h2 className='text-[25px] font-bold'>Class A</h2>
-                          <span className='text-[#9E9E9E] text-[20px]'>78 Registered</span>
+                          <h2 className='text-[16px] '>Class A</h2>
+                          <span className='text-[#9E9E9E] text-[16px]'>78 Registered</span>
                         </div>
 
                         <div className='circular-progress bg-[conic-gradient(#7d2ae8 3.6deg, #ededed 0deg)]'>
-                            <span className='progress-value text-[30px]'>32%</span>
+                            <span className='progress-value text-[18px]'>32%</span>
+                        </div>
+                      </div>   
+
+                      <div className='bg-[#F0F7FF] flex items-center justify-between px-5 py-3 rounded-lg'>
+                        <div>
+                          <h2 className='text-[16px] '>Class A</h2>
+                          <span className='text-[#9E9E9E] text-[16px]'>78 Registered</span>
+                        </div>
+
+                        <div className='circular-progress bg-[conic-gradient(#7d2ae8 3.6deg, #ededed 0deg)]'>
+                            <span className='progress-value text-[18px]'>32%</span>
+                        </div>
+                      </div>
+
+
+                      <div className='bg-[#F0F7FF] flex items-center justify-between px-5 py-3 rounded-lg'>
+                        <div>
+                          <h2 className='text-[16px] '>Class A</h2>
+                          <span className='text-[#9E9E9E] text-[16px]'>78 Registered</span>
+                        </div>
+
+                        <div className='circular-progress bg-[conic-gradient(#7d2ae8 3.6deg, #ededed 0deg)]'>
+                            <span className='progress-value text-[18px]'>32%</span>
                         </div>
                       </div>
 
                       <div className='bg-[#F0F7FF] flex items-center justify-between px-5 py-3 rounded-lg'>
                         <div>
-                          <h2 className='text-[25px] font-bold'>Class A</h2>
-                          <span className='text-[#9E9E9E] text-[20px]'>78 Registered</span>
+                          <h2 className='text-[16px] '>Class A</h2>
+                          <span className='text-[#9E9E9E] text-[16px]'>78 Registered</span>
                         </div>
 
                         <div className='circular-progress bg-[conic-gradient(#7d2ae8 3.6deg, #ededed 0deg)]'>
-                            <span className='progress-value text-[30px]'>32%</span>
-                        </div>
-                      </div>
-
-                      <div className='bg-[#F0F7FF] flex items-center justify-between px-5 py-3 rounded-lg'>
-                        <div>
-                          <h2 className='text-[25px] font-bold'>Class A</h2>
-                          <span className='text-[#9E9E9E] text-[20px]'>78 Registered</span>
-                        </div>
-
-                        <div className='circular-progress bg-[conic-gradient(#7d2ae8 3.6deg, #ededed 0deg)]'>
-                            <span className='progress-value text-[30px]'>32%</span>
+                            <span className='progress-value text-[18px]'>32%</span>
                         </div>
                       </div>
                       
-                      <div className='bg-[#F0F7FF] flex items-center justify-between px-5 py-3 rounded-lg'>
-                        <div>
-                          <h2 className='text-[25px] font-bold'>Class A</h2>
-                          <span className='text-[#9E9E9E] text-[20px]'>78 Registered</span>
-                        </div>
-
-                        <div className='circular-progress bg-[conic-gradient(#7d2ae8 3.6deg, #ededed 0deg)]'>
-                            <span className='progress-value text-[30px]'>32%</span>
-                        </div>
-                      </div>   
                     </div>
-
-
-
                 </div>
 
           {/* upcoming activities */}
 
                 <div className='w-4/12 bg-white px-6 py-2 overflow-y-auto classProgress'>
                   <div className='flex justify-between my-2'>
-                    <h1 className='text-[30px]'>Upcoming Activities</h1>
+                    <h1 className='text-[20px]'>Upcoming Activities</h1>
                     <Link to={"/"} className='text-blue-bg font-bold'>See all</Link>
                   </div>
 
@@ -168,7 +167,7 @@ const DashBoardTutor = () => {
                       <div className='text-white p-3 rounded-md bg-blue-bg 1/12'><span>31</span></div>
                     
                       <div className='w-7/12 flex flex-col justify-center items-center'>
-                        <h2 className='text-[25px]'>Meeting with the VC</h2>
+                        <h2 className='text-[16px]'>Meeting with the VC</h2>
                         <Link to={"/"} className='font-bold text-blue-bg '>www.google.com</Link>
                       </div>
 
@@ -177,7 +176,7 @@ const DashBoardTutor = () => {
                           <span className='w-10 h-10 rounded-full bg-blue-bg'></span>
                           <span className='text-[#8A8A8A]'>10AM-11AM</span>
                         </div>
-                        <span className='text-[#FF1515] font-bold'>Due Soon</span>
+                        <span className='text-[#FF1515] text-[13px]'>Due Soon</span>
                       </div>
                     </div>
 
@@ -185,7 +184,7 @@ const DashBoardTutor = () => {
                       <div className='text-white p-3 rounded-md bg-blue-bg 1/12'><span>31</span></div>
                     
                       <div className='w-7/12 flex flex-col justify-center items-center'>
-                        <h2 className='text-[25px]'>Meeting with the VC</h2>
+                        <h2 className='text-[16px]'>Meeting with the VC</h2>
                         <Link to={"/"} className='font-bold text-blue-bg '>www.google.com</Link>
                       </div>
 
@@ -194,7 +193,7 @@ const DashBoardTutor = () => {
                           <span className='w-10 h-10 rounded-full bg-blue-bg'></span>
                           <span className='text-[#8A8A8A]'>10AM-11AM</span>
                         </div>
-                        <span className='text-[#FF1515] font-bold'>Due Soon</span>
+                        <span className='text-[#FF1515] text-[13px]'>Due Soon</span>
                       </div>
                     </div>
 
@@ -202,7 +201,7 @@ const DashBoardTutor = () => {
                       <div className='text-white p-3 rounded-md bg-blue-bg 1/12'><span>31</span></div>
                     
                       <div className='w-7/12 flex flex-col justify-center items-center'>
-                        <h2 className='text-[25px]'>Meeting with the VC</h2>
+                        <h2 className='text-[16px]'>Meeting with the VC</h2>
                         <Link to={"/"} className='font-bold text-blue-bg '>www.google.com</Link>
                       </div>
 
@@ -211,44 +210,10 @@ const DashBoardTutor = () => {
                           <span className='w-10 h-10 rounded-full bg-blue-bg'></span>
                           <span className='text-[#8A8A8A]'>10AM-11AM</span>
                         </div>
-                        <span className='text-[#FF1515] font-bold'>Due Soon</span>
+                        <span className='text-[#FF1515] text-[13px]'>Due Soon</span>
                       </div>
                     </div>
 
-                    <div className='flex items-center justify-between bg-[#F0F7FF] py-5 rounded-lg px-4'>
-                      <div className='text-white p-3 rounded-md bg-blue-bg 1/12'><span>31</span></div>
-                    
-                      <div className='w-7/12 flex flex-col justify-center items-center'>
-                        <h2 className='text-[25px]'>Meeting with the VC</h2>
-                        <Link to={"/"} className='font-bold text-blue-bg '>www.google.com</Link>
-                      </div>
-
-                      <div className='flex flex-col w-3/12'>
-                        <div>
-                          <span className='w-10 h-10 rounded-full bg-blue-bg'></span>
-                          <span className='text-[#8A8A8A]'>10AM-11AM</span>
-                        </div>
-                        <span className='text-[#FF1515] font-bold'>Due Soon</span>
-                      </div>
-                    </div>
-
-                    <div className='flex items-center justify-between bg-[#F0F7FF] py-5 rounded-lg px-4'>
-                      <div className='text-white p-3 rounded-md bg-blue-bg 1/12'><span>31</span></div>
-                    
-                      <div className='w-7/12 flex flex-col justify-center items-center'>
-                        <h2 className='text-[25px]'>Meeting with the VC</h2>
-                        <Link to={"/"} className='font-bold text-blue-bg '>www.google.com</Link>
-                      </div>
-
-                      <div className='flex flex-col w-3/12'>
-                        <div>
-                          <span className='w-10 h-10 rounded-full bg-blue-bg'></span>
-                          <span className='text-[#8A8A8A]'>10AM-11AM</span>
-                        </div>
-                        <span className='text-[#FF1515] font-bold'>Due Soon</span>
-                      </div>
-                    </div>
-              
                   </div>
 
                 </div>    
@@ -263,7 +228,7 @@ const DashBoardTutor = () => {
             {/* graph */}
             <div className='w-4/12 bg-white'>
               <div className='flex justify-between px-6'>
-                  <h2 className='text-[30px] my-2'>Student Statistic</h2>
+                  <h2 className='text-[20px] my-2'>Student Statistic</h2>
                   <div className='flex items-center space-x-4'>
                   <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M5.46682 0.141546C5.20038 0.141546 4.93496 0.246881 4.73565 0.456518L0.807242 4.5873C0.422842 4.99314 0.427927 5.63651 0.820462 6.03513L4.88819 10.1659C5.28479 10.5697 5.92851 10.5697 6.32613 10.1659C6.72273 9.76213 6.72273 9.10947 6.32613 8.70568L2.96517 5.29263L6.19799 1.89196C6.58849 1.48095 6.57731 0.827255 6.17359 0.431733C5.97528 0.237587 5.72105 0.141546 5.46682 0.141546Z" fill="#2E3A59"/>

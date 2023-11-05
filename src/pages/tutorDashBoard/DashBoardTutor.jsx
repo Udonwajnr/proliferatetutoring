@@ -56,7 +56,7 @@ const DashBoardTutor = () => {
         <section>
             <div className='relative bg-blue-bg flex justify-between rounded-lg items-center'>
                 <div className='p-5'>
-                    <h1 className='text-[40px] text-white font-bold'>Welcome bak,Charles</h1>
+                    <h1 className='text-[40px] text-white font-bold'>Welcome back,Charles</h1>
                     <p className='text-white text-[20px]'>
                     You have 27 new student added to your domain. Please reach out to the Head Teacher if you want them excluded from your domain.
                     </p>
@@ -266,7 +266,7 @@ const DashBoardTutor = () => {
             {/* waiting room */}
             <div className='w-4/12 bg-white'>
               <div className='flex justify-between my-2 px-6'>
-                      <h1 className='text-[30px]'>Waiting Room</h1>
+                      <h1 className='text-[20px]'>Waiting Room</h1>
                       <Link to={"/"} className='text-blue-bg font-bold'>See all</Link>
               </div>
               <div>
@@ -317,7 +317,7 @@ const DashBoardTutor = () => {
           {/* documents  */}
             <div className='w-4/12 bg-white'>
               <div className='flex justify-between my-2 px-6'>
-                      <h1 className='text-[30px]'>Documents</h1>
+                      <h1 className='text-[20px]'>Documents</h1>
                       <Link to={"/"} className='text-blue-bg font-bold'>See all</Link>
               </div>
               <div>

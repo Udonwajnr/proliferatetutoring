@@ -3,6 +3,7 @@ import AdminSidebar from './AdminSidebar'
 import {CartesianGrid,XAxis, YAxis,Tooltip,Legend,Bar,Line,ComposedChart,LineChart } from 'recharts'
 import { Area } from 'recharts'
 import { Link } from 'react-router-dom'
+import AdminHeader from './AdminHeader'
 
 const AdminLayout = ({children}) => {
   const data = [
@@ -51,9 +52,11 @@ const AdminLayout = ({children}) => {
   ]
   return (
     <>
+    
     <div className='flex'>
       <AdminSidebar/>
       <div className='w-10/12 p-4'>
+        <AdminHeader/>
         <main>
           {children}
         </main>
